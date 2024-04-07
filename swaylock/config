@@ -1,0 +1,29 @@
+color=1e1e2e
+font=FiraCode Nerd Font
+font-size=100px
+ignore-empty-password
+clock
+timestr=%I:%M:%S %p
+indicator
+line-uses-ring
+text-color=cdd6f4
+text-clear-color=11111b
+text-caps-lock-color=11111b
+text-ver-color=11111b
+text-wrong-color=11111b
+ring-color=11111b
+inside-color=11111b
+ring-color=11111b
+key-hl-color=b4befe
+inside-clear-color=f9e2af
+inside-caps-lock-color=fab387
+inside-ver-color=b4befe
+inside-wrong-color=f38ba8
+ring-clear-color=f9e2af
+ring-caps-lock-color=fab387
+ring-ver-color=b4befe
+ring-wrong-color=f38ba8
+bs-hl-color=b4befe
+caps-lock-bs-hl-color=b4befe
+indicator-radius=225
+indicator-thickness=15

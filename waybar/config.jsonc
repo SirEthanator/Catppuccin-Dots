@@ -1,0 +1,77 @@
+{
+  "layer": "top",
+    "modules-left": ["custom/arch", "hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["tray", "pulseaudio", "custom/shutdown", "custom/divider", "custom/reboot", "custom/divider", "custom/logout", "clock", "custom/notifications"],
+    "custom/arch": {
+      "format": "  ",
+      "tooltip": false,
+      "on-click": "nwg-drawer -ovl -pbpoweroff '/home/ethan/PowerScripts/Shutdown.sh & /home/ethan/PowerScripts/ShutdownHlpr.sh' -pbreboot '/home/ethan/PowerScripts/Reboot.sh & /home/ethan/PowerScripts/RebootHlpr.sh' -term 'kitty'"
+    },
+    "custom/notifications": {
+      "tooltip": false,
+      "format": "{icon}",
+      "format-icons": {
+        "notification": "",
+        "none": "",
+        "dnd-notification": "",
+        "dnd-none": "",
+        "inhibited-notification": "",
+        "inhibited-none": "",
+        "dnd-inhibited-notification": "",
+        "dnd-inhibited-none": ""
+      },
+      "return-type": "json",
+      "exec-if": "which swaync-client",
+      "exec": "swaync-client -swb",
+      "on-click": "swaync-client -t -sw",
+      "on-click-right": "swaync-client -d -sw",
+      "escape": true
+    },
+    "custom/shutdown": {
+      "format": "  ",
+      "tooltip": false,
+      "on-click": "/home/ethan/Scripts/Power/Shutdown.sh & /home/ethan/Scripts/Power/ShutdownHlpr.sh"
+    },
+    "custom/reboot": {
+      "format": "  ",
+      "tooltip": false,
+      "on-click": "/home/ethan/Scripts/Power/Reboot.sh & /home/ethan/Scripts/Power/RebootHlpr.sh"
+    },
+    "custom/logout": {
+      "format": "  ",
+      "tooltip": false,
+      "on-click": "/home/ethan/Scripts/Power/Logout.sh & /home/ethan/Scripts/Power/LogoutHlpr.sh"
+    },
+    "custom/divider": {
+     "format": "|",
+     "tooltip": "flase"
+    },
+    "hyprland/workspaces": {
+      "format": "{name}",
+      "format": "{icon}",
+      "tooltip": false,
+      "all-outputs": true,
+      "format-icons": {
+        "active": "",
+        "default": ""
+      }
+    },
+    "tray": {
+      "icon-size": 18,
+      "spacing": 12,
+    },
+    "clock": {
+      "format": "<span color='#b4befe'>  </span>{:%I:%M %p}",
+    },
+    "pulseaudio": {
+      "format": "<span color='#b4befe'>{icon}</span> {volume}%",
+      "format-muted": "",
+      "tooltip": false,
+      "format-icons": {
+        "headphone": "",
+        "default": ["", "", "󰕾", "󰕾", "󰕾", "", "", ""]
+      },
+      "scroll-step": 1,
+    },
+}

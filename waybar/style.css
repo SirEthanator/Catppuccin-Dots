@@ -3,7 +3,7 @@
   font-family: 'Fira Code', 'Symbols Nerd Font Mono';
   font-size: 16px;
   font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
-  min-height: 40px;
+  min-height: 35px;
 }
 
 window#waybar {
@@ -14,7 +14,7 @@ window#waybar.empty #window {
   background-color: transparent;
 }
 
-#custom-arch, #workspaces, #custom-notifications {
+#custom-apps, #workspaces, #custom-notifications {
   border-radius: 6px;
   background-color: #11111b;
   color: #b4befe;
@@ -25,7 +25,7 @@ window#waybar.empty #window {
   padding-right: 5px;
 }
 
-#custom-arch, #custom-notifications {
+#custom-apps, #custom-notifications {
   font-size: 20px;
   margin-left: 15px;
   color: #b4befe;

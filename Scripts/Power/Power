@@ -1,0 +1,56 @@
+#!/bin/bash
+
+if [ "$#" -ge 2 ]; then
+	printf "\033[0;31mError: Too many arguments\033[0m\n"
+	exit 128
+elif [ "$#" -le 0 ]; then
+	printf "\033[0;31mError: No arguments\033[0m\n"
+    echo 'Syntax: Power <OPTION>'
+    echo 'Options:'
+    echo '-s, --shutdown'
+    echo '-r, --reboot'
+    echo '-l, --logout'
+	exit 128
+fi
+
+common () {
+    if [[ $? == 1 ]]; then
+        helper=$(pgrep -x Helper)
+        kill -SIGTERM $helper
+        exit 130
+    else
+        killall waybar
+        hyprctl dispatch workspace 15
+        sleep 1
+    fi
+}
+
+shutdown () {
+    /home/ethan/Scripts/Power/Helper -s & yad --image=dialog-warning --title="Shut down?" --button="Shut down now":0 --button="Cancel":1 --text="Shutting down in 5 seconds"
+
+    common
+	exec sudo shutdown -h now
+}
+
+reboot () {
+    /home/ethan/Scripts/Power/Helper -r & yad --image=dialog-warning --title="Reboot?" --button="Reboot now":0 --button="Cancel":1 --text="Rebooting in 5 seconds"
+    common
+	exec sudo shutdown -r now
+}
+
+logoutFunc () {
+    /home/ethan/Scripts/Power/Helper -l & yad --image=dialog-warning --title="Log out?" --button="Log out now":0 --button="Cancel":1 --text="Logging out in 5 seconds"
+    common
+	killall Hyprland
+}
+
+if [ $1 == '-s' ] || [ $1 == '--shutdown' ]; then
+    shutdown
+elif [ $1 == '-r' ] || [ $1 == '--reboot' ]; then
+    reboot
+elif [ $1 == '-l' ] || [ $1 == '--logout' ]; then
+    logoutFunc
+else
+    printf "\033[0;31mError: Invalid argument\033[0m\n"
+    exit 128
+fi

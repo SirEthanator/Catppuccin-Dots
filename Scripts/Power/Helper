@@ -1,0 +1,41 @@
+#!/bin/bash
+
+if [ "$#" -ge 2 ]; then
+	exit 128
+elif [ "$#" -le 0 ]; then
+	exit 128
+fi
+
+
+common () {
+    sleep 5
+    killall yad
+    killall waybar
+    hyprctl dispatch workspace 15
+    sleep 1
+}
+
+shutdown () {
+    common
+    exec sudo shutdown -h now
+}
+
+reboot () {
+    common
+    exec sudo shutdown -r now
+}
+
+logoutFunc () {
+    common
+    exec killall hyprland
+}
+
+if [ $1 == '-s' ] || [ $1 == '--shutdown' ]; then
+    shutdown
+elif [ $1 == '-r' ] || [ $1 == '--reboot' ]; then
+    reboot
+elif [ $1 == '-l' ] || [ $1 == '--logout' ]; then
+    logoutFunc
+else
+    exit 128
+fi

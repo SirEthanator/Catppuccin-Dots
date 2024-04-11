@@ -1,12 +1,12 @@
 {
   "layer": "top",
-    "modules-left": ["custom/arch", "hyprland/workspaces"],
+    "modules-left": ["custom/apps", "hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["tray", "pulseaudio", "custom/shutdown", "custom/divider", "custom/reboot", "custom/divider", "custom/logout", "clock", "custom/notifications"],
-    "custom/arch": {
+    "custom/apps": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "nwg-drawer -ovl -pbpoweroff '/home/ethan/PowerScripts/Shutdown.sh & /home/ethan/PowerScripts/ShutdownHlpr.sh' -pbreboot '/home/ethan/PowerScripts/Reboot.sh & /home/ethan/PowerScripts/RebootHlpr.sh' -term 'kitty'"
+      "on-click": "nwg-drawer -ovl -pbpoweroff '/home/ethan/Scripts/Power/Power -s' -pbreboot '/home/ethan/Scripts/Power/Power -r' -term 'kitty'"
     },
     "custom/notifications": {
       "tooltip": false,
@@ -31,17 +31,17 @@
     "custom/shutdown": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "/home/ethan/Scripts/Power/Shutdown.sh & /home/ethan/Scripts/Power/ShutdownHlpr.sh"
+      "on-click": "/home/ethan/Scripts/Power/Power -s"
     },
     "custom/reboot": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "/home/ethan/Scripts/Power/Reboot.sh & /home/ethan/Scripts/Power/RebootHlpr.sh"
+      "on-click": "/home/ethan/Scripts/Power/Power -r"
     },
     "custom/logout": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "/home/ethan/Scripts/Power/Logout.sh & /home/ethan/Scripts/Power/LogoutHlpr.sh"
+      "on-click": "/home/ethan/Scripts/Power/Power -l"
     },
     "custom/divider": {
      "format": "|",

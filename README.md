@@ -14,7 +14,10 @@ Firefox css only uses Catppuccin colors with dark mode
 
 ## Use with:
 [Catppuccin GTK theme](https://github.com/catppuccin/gtk)
+
 [Catppuccin hyprcursors](https://github.com/entailz/hyprcatppuccin/blob/master/hyprconverted/extracted_Catppuccin-Mocha-Lavender-Cursors.tar.gz)
+
 [Papirus folders](https://github.com/catppuccin/papirus-folders)
+
 [Catppuccin Kvantum theme](https://github.com/catppuccin/Kvantum)
 

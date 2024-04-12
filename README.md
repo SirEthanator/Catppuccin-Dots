@@ -33,3 +33,5 @@ The Firefox css only uses Catppuccin colors when using dark mode
 
 - [Catppuccin Kvantum theme](https://github.com/catppuccin/Kvantum)
 
+- [Catppuccin for VSCode](https://github.com/catppuccin/vscode)
+

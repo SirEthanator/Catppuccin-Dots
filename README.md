@@ -2,13 +2,14 @@
 # Hyprland-Dots
 My Catppuccin Mocha Lavender Hyprland setup!
 
-<br>
 
 ## Video
 
 You can find a quick recording [here](https://www.youtube.com/watch?v=GO_74MEvg8o)
 
-\(The Video may be poor quality since it got compressed\)
+\(The Video may be poor quality since it got compressed.\)
+
+You can also find the [original video file](./assets/Recording.mp4) in the assets directory.
 
 
 ## Credits
@@ -42,5 +43,5 @@ The Firefox css only uses Catppuccin colors when using dark mode
 
 - [Catppuccin for VSCode](https://github.com/catppuccin/vscode)
 
-- [Catppuccin for swaync]()
+- [Catppuccin for swaync](https://github.com/catppuccin/swaync)
 

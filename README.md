@@ -4,6 +4,12 @@ My Catppuccin Mocha Lavender Hyprland setup!
 
 
 
+## Video
+<video controls>
+  <source src="./assets/Recording.mp4" type="video/mp4">
+</video>
+
+
 ## Credits
 
 Waybar config based on the one from [m4xshen's dotfiles](https://github.com/m4xshen/dotfiles)

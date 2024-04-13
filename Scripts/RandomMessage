@@ -1,0 +1,31 @@
+#!/bin/bash
+
+randNum=$(echo $(( $RANDOM % 8 )))
+
+if [ $randNum -eq 0 ]; then
+    text="\" Catppuccin! \""
+elif [ $randNum -eq 1 ]; then
+    text="\" Hyprland on top \""
+elif [ $randNum -eq 2 ]; then
+    text="\" Hyprland.exe \""
+elif [ $randNum -eq 3 ]; then
+    text="\" Catppuccin is the best! \""
+elif [ $randNum -eq 4 ]; then
+    text="\" Catppuccin forever! \""
+elif [ $randNum -eq 5 ]; then
+    text="\" Hello World! \""
+elif [ $randNum -eq 6 ]; then
+    text="\" WHY IS THERE CODE??? MAKE A FUCKING .EXE FILE AND GIVE IT TO ME. \""
+elif [ $randNum -eq 7 ]; then
+    text="\" tf is grass \""
+else
+    text="\" Something's wrong with your script \""
+fi
+
+
+rm /home/ethan/.config/macchina/themes/Mocha-Lavender.toml
+
+cp /home/ethan/.config/macchina/themes/Mocha-Lavender-No-Title.toml /home/ethan/.config/macchina/themes/Mocha-Lavender.toml
+
+sed "s/title =/& $text/" /home/ethan/.config/macchina/themes/Mocha-Lavender.toml -i
+

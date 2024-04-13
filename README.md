@@ -51,6 +51,8 @@ The ```assets``` directory doesn't contain anything needed for the setup.
 
 - [Catppuccin for swaync](https://github.com/catppuccin/swaync)
 
+- [Ocean sound theme](https://invent.kde.org/plasma/ocean-sound-theme)
+
 
 ## To do
 

@@ -23,12 +23,18 @@ Screenshot and GTK Theme scripts are based on [Arcolinux](https://arcolinux.com/
 Firefox css is a Catppuccinified version of [WhiteSur Firefox Theme](https://github.com/vinceliuice/WhiteSur-firefox-theme).
 
 
-Colors section of kitty config is a tweaked version of [Catppuccin Kitty](https://github.com/catppuccin/kitty).
+Colors section of kitty config is a tweaked version of [Catppuccin for Kitty](https://github.com/catppuccin/kitty).
 
 
 ## Notes
 
 The Firefox css only uses Catppuccin colors when using dark mode
+
+If you plan on using my dotfiles you should certainly look through and change the contents of the hypr folder to suit your needs.
+
+Most parts of these dotfiles go in ~/.config but some folders like ```.swaylock``` and ```Scripts``` go straight in your home directory.
+
+The ```assets``` directory doesn't contain anything needed for the setup.
 
 
 ## Use with
@@ -45,3 +51,11 @@ The Firefox css only uses Catppuccin colors when using dark mode
 
 - [Catppuccin for swaync](https://github.com/catppuccin/swaync)
 
+
+## To do
+
+- [] Change paths to ~/ instead of my home folder in some parts of the config
+
+- [] Tweak some colors in Firefox
+
+- [] Get a better recording of the setup

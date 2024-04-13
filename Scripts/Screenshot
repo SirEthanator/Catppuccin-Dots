@@ -7,13 +7,11 @@ dir="$(xdg-user-dir PICTURES)/Screenshots"
 file="Screenshot_${time}_${RANDOM}.png"
 
 # notify and view screenshot
-notify_cmd_shot="notify-send -h string:x-canonical-private-synchronous:shot-notify -u low -i ${iDIR}/apps/gtkam-camera.svg -t 5000"
+notify_cmd_shot="notify-send -h string:x-canonical-private-synchronous:shot-notify -i ${iDIR}/apps/gtkam-camera.svg -t 5000 -u low"
 notify_view() {
 	${notify_cmd_shot} "Copied to clipboard."
 	if [[ -e "$dir/$file" ]]; then
 		notifID=$(${notify_cmd_shot} "Screenshot Saved." -p)
-	else
-		${notify_cmd_shot} "Screenshot Deleted."
 	fi
 }
 

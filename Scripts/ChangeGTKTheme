@@ -5,7 +5,7 @@
 SCHEMA='gsettings set org.gnome.desktop.interface'
 
 if [ "$#" -ne 2 ]; then
-	echo "Invalid number of arguments. Please use one at a time."
+	echo "Invalid number of arguments. Please set one at a time."
 	exit 1
 fi
 
@@ -31,14 +31,4 @@ while getopts ":t:i:f:c:" opt; do
 done
 
 exit 0
-
-#THEME='Catppuccin-Mocha-Standard-Lavender-Dark'
-#ICONS='Papirus'
-#FONT='FiraCode Nerd Font 11'
-#CURSOR='Catppuccin-Mocha-Lavender-GTK-Cursors'
-
-
-
-
-
 

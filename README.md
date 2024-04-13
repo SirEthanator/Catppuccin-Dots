@@ -5,7 +5,7 @@ My Catppuccin Mocha Lavender Hyprland setup!
 
 ## Video
 
-You can find a quick recording [here](https://www.youtube.com/watch?v=GO_74MEvg8o)
+You can find a quick recording [here](https://www.youtube.com/watch?v=GO_74MEvg8o).
 
 \(The Video may be poor quality since it got compressed\).
 
@@ -14,16 +14,16 @@ You can also find the [original video file](./assets/Recording.mp4) in the asset
 
 ## Credits
 
-Waybar config based on the one from [m4xshen's dotfiles](https://github.com/m4xshen/dotfiles)
+Waybar config based on the one from [m4xshen's dotfiles](https://github.com/m4xshen/dotfiles).
 
 
 Screenshot and GTK Theme scripts are based on [Arcolinux](https://arcolinux.com/) ones.
 
 
-Firefox css is a Catppuccinified version of [WhiteSur Firefox Theme](https://github.com/vinceliuice/WhiteSur-firefox-theme)
+Firefox css is a Catppuccinified version of [WhiteSur Firefox Theme](https://github.com/vinceliuice/WhiteSur-firefox-theme).
 
 
-Colors section of kitty config is a tweaked version of [Catppuccin Kitty](https://github.com/catppuccin/kitty)
+Colors section of kitty config is a tweaked version of [Catppuccin Kitty](https://github.com/catppuccin/kitty).
 
 
 ## Notes

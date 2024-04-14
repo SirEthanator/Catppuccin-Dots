@@ -78,6 +78,8 @@ tab > stack {
 	transition: none !important;
 }
 
+.tabbrowser-tab[selected][fadein]:not([pinned]) { min-width: 300px !important; }
+
 .tab-background:is([selected]):-moz-window-inactive {
 	background: var(--gnome-inactive-tabbar-tab-active-background) !important;
 }

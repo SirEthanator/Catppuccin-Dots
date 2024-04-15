@@ -42,6 +42,11 @@ window#waybar.empty #window {
   color: #b4befe;
 }
 
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+
 #clock, #pulseaudio, #window, #tray {
   border-radius: 6px;
   background-color: #11111b;

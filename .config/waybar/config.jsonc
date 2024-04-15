@@ -53,8 +53,8 @@
       "tooltip": false,
       "all-outputs": true,
       "format-icons": {
-        "active": "",
-        "default": ""
+        "active": "",
+        "default": ""
       }
     },
     "tray": {
@@ -70,7 +70,7 @@
       "tooltip": false,
       "format-icons": {
         "headphone": "",
-        "default": ["", "", "󰕾", "󰕾", "󰕾", "", "", ""]
+        "default": ["", "", "", "", "", "", "", ""]
       },
       "scroll-step": 1,
     },

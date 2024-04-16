@@ -12,13 +12,16 @@ window#waybar {
 
 window#waybar.empty #window {
   background-color: transparent;
+  border: none;
+  transition: none;
 }
 
 #custom-apps, #workspaces, #custom-notifications {
   border-radius: 6px;
   background-color: #11111b;
+  border: 1px solid #b4befe;
   color: #b4befe;
-  margin-top: 15px;
+  margin-top: 6px;
   margin-right: 15px;
   padding-top: 1px;
   padding-left: 5px;
@@ -29,8 +32,8 @@ window#waybar.empty #window {
   font-size: 20px;
   margin-left: 15px;
   color: #b4befe;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #custom-notifications {
@@ -51,7 +54,8 @@ window#waybar.empty #window {
   border-radius: 6px;
   background-color: #11111b;
   color: #cdd6f4;
-  margin-top: 15px;
+  border: 1px solid #b4befe;
+  margin-top: 6px;
   padding-left: 10px;
   padding-right: 10px;
   margin-right: 15px;
@@ -60,7 +64,8 @@ window#waybar.empty #window {
 #custom-shutdown, #custom-logout, #custom-reboot {
   background-color: #11111b;
   color: #b4befe;
-  margin-top: 15px;
+  border: 1px solid #b4befe;
+  margin-top: 6px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -68,17 +73,27 @@ window#waybar.empty #window {
 #custom-divider {
   background-color: #11111b;
   color: #b4befe;
-  margin-top: 15px ;
+  margin-top: 6px;
+  border-top: 1px solid #b4befe;
+  border-bottom: 1px solid #b4befe;
 }
 
 #custom-shutdown {
   border-radius: 6px 0px 0px 6px;
+  border-right: none;
 }
 
 #custom-logout {
   border-radius: 0px 6px 6px 0px;
+  border-left: none;
+  margin-right: 15px;
 }
 
-#custom-logout {
-  margin-right: 15px;
+#custom-reboot {
+  border-left: none;
+  border-right: none;
+}
+
+#window {
+  transition: linear 0.3s;
 }

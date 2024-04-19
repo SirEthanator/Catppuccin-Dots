@@ -6,8 +6,9 @@
     "custom/apps": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "nwg-drawer -ovl -pbpoweroff '/home/ethan/Scripts/Power/Power -s' -pbreboot '/home/ethan/Scripts/Power/Power -r' -term 'kitty'"
+      "on-click": "nwg-drawer -ovl -pbpoweroff '$HOME/Scripts/Power/Power -s' -pbreboot '$HOME/Scripts/Power/Power -r' -term 'kitty'"
     },
+
     "custom/notifications": {
       "tooltip": false,
       "format": "{icon}",
@@ -21,6 +22,7 @@
         "dnd-inhibited-notification": "",
         "dnd-inhibited-none": ""
       },
+
       "return-type": "json",
       "exec-if": "which swaync-client",
       "exec": "swaync-client -swb",
@@ -28,25 +30,30 @@
       "on-click-right": "swaync-client -d -sw",
       "escape": true
     },
+
     "custom/shutdown": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "/home/ethan/Scripts/Power/Power -s"
+      "on-click": "$HOME/Scripts/Power/Power -s"
     },
+
     "custom/reboot": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "/home/ethan/Scripts/Power/Power -r"
+      "on-click": "$HOME/Scripts/Power/Power -r"
     },
+
     "custom/logout": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "/home/ethan/Scripts/Power/Power -l"
+      "on-click": "$HOME/Scripts/Power/Power -l"
     },
+
     "custom/divider": {
      "format": "|",
      "tooltip": "flase"
     },
+
     "hyprland/workspaces": {
       "format": "{name}",
       "format": "{icon}",
@@ -57,21 +64,25 @@
         "default": ""
       }
     },
+
     "tray": {
       "icon-size": 18,
       "spacing": 12,
     },
+
     "clock": {
       "format": "<span color='#b4befe'>  </span>{:%I:%M %p}",
     },
+
     "pulseaudio": {
       "format": "<span color='#b4befe'>{icon}</span> {volume}%",
       "format-muted": "",
       "tooltip": false,
       "format-icons": {
         "headphone": "",
-        "default": ["", "", "", "", "", "", "", ""]
+        "default": ["", "", "", "", "", ""]
       },
+
       "scroll-step": 1,
     },
 }

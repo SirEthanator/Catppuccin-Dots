@@ -30,9 +30,13 @@ Colors section of kitty config is a tweaked version of [Catppuccin for Kitty](ht
 
 The Firefox css only uses Catppuccin colors when using dark mode
 
-If you plan on using my dotfiles you should certainly look through and change the contents of the hypr folder to suit your needs.
+The ```chrome``` directory in /firefox goes in your firefox profile folder
 
-Most parts of these dotfiles go in ~/.config but some folders like ```.swaylock``` and ```Scripts``` go straight in your home directory.
+Firefox css requires ```toolkit.legacyUserProfileCustomizations.stylesheets``` to be enabled in about:config.
+
+If you plan on using my dotfiles you should certainly look through and change the contents of the hypr folder to suit your needs. Looking through other parts is recommended too.
+
+Things outside of ```.config``` go in your home folder \(Except for ```assets```, ```README.md``` and ```firefox```\).
 
 The ```assets``` directory doesn't contain anything needed for the setup.
 

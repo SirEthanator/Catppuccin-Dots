@@ -47,11 +47,11 @@ The ```assets``` directory doesn't contain anything needed for the setup.
 
 - [Catppuccin Kvantum theme](https://github.com/catppuccin/Kvantum)
 
-- [Catppuccin for VSCode](https://github.com/catppuccin/vscode)
-
 - [Catppuccin for swaync](https://github.com/catppuccin/swaync)
 
 - [Ocean sound theme](https://invent.kde.org/plasma/ocean-sound-theme)
+
+- [Borders++](https://hyprland.org/plugins/borders-plus-plus/)
 
 
 ## To do

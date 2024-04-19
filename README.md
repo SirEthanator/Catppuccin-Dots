@@ -62,8 +62,10 @@ The ```assets``` directory doesn't contain anything needed for the setup.
 
 ## To do
 
-- [ ] Change paths to ```~/``` or ```$HOME/``` instead of my home folder in some parts of the config
-
 - [ ] Tweak some colors in Firefox
 
 - [ ] Get a better recording of the setup
+
+---
+
+- [x] Change paths to ```~/``` or ```$HOME/``` instead of my home folder in some parts of the config

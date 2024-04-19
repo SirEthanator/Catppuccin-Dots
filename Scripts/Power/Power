@@ -26,20 +26,20 @@ common () {
 }
 
 shutdown () {
-    /home/ethan/Scripts/Power/Helper -s & yad --image=dialog-warning --title="Shut down?" --button="Shut down now":0 --button="Cancel":1 --text="Shutting down in 5 seconds"
+    $HOME/Scripts/Power/Helper -s & yad --image=dialog-warning --title="Shut down?" --button="Shut down now":0 --button="Cancel":1 --text="Shutting down in 5 seconds"
 
     common
 	exec sudo shutdown -h now
 }
 
 reboot () {
-    /home/ethan/Scripts/Power/Helper -r & yad --image=dialog-warning --title="Reboot?" --button="Reboot now":0 --button="Cancel":1 --text="Rebooting in 5 seconds"
+    $HOME/Scripts/Power/Helper -r & yad --image=dialog-warning --title="Reboot?" --button="Reboot now":0 --button="Cancel":1 --text="Rebooting in 5 seconds"
     common
 	exec sudo shutdown -r now
 }
 
 logoutFunc () {
-    /home/ethan/Scripts/Power/Helper -l & yad --image=dialog-warning --title="Log out?" --button="Log out now":0 --button="Cancel":1 --text="Logging out in 5 seconds"
+    $HOME/Scripts/Power/Helper -l & yad --image=dialog-warning --title="Log out?" --button="Log out now":0 --button="Cancel":1 --text="Logging out in 5 seconds"
     common
 	killall Hyprland
 }

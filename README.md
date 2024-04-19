@@ -57,6 +57,8 @@ The ```assets``` directory doesn't contain anything needed for the setup.
 
 - [Borders++](https://hyprland.org/plugins/borders-plus-plus/)
 
+- [Kitppuccin Wallpapers](https://ptb.discord.com/channels/907385605422448742/1162120724589326447) \(Sign into discord and join [The Catppuccin Discord server](https://discord.gg/catppuccin)\)
+
 
 ## To do
 

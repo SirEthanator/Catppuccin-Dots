@@ -23,9 +23,12 @@ else
 fi
 
 
-rm /home/ethan/.config/macchina/themes/Mocha-Lavender.toml
+rm $HOME/.config/macchina/themes/Mocha-Lavender.toml
 
-cp /home/ethan/.config/macchina/themes/Mocha-Lavender-No-Title.toml /home/ethan/.config/macchina/themes/Mocha-Lavender.toml
+cp $HOME/.config/macchina/themes/Mocha-Lavender-No-Title.toml $HOME/.config/macchina/themes/Mocha-Lavender.toml
 
-sed "s/title =/& $text/" /home/ethan/.config/macchina/themes/Mocha-Lavender.toml -i
+sed "s/title =/& $text/" $HOME/.config/macchina/themes/Mocha-Lavender.toml -i
+
+# The second to last entry is referencing this reddit post that I found amusing:
+# https://www.reddit.com/r/github/comments/1at9br4/i_am_new_to_github_and_i_have_lots_to_say/
 

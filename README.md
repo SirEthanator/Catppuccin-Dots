@@ -12,16 +12,15 @@ You can also find the [original video file](./assets/Recording.mp4) in the asset
 
 ## Credits
 
-Waybar config based on the one from [m4xshen's dotfiles](https://github.com/m4xshen/dotfiles).
+- Waybar config based on the one from [m4xshen's dotfiles](https://github.com/m4xshen/dotfiles).
 
+- Screenshot and GTK Theme scripts are based on [Arcolinux](https://arcolinux.com/) ones.
 
-Screenshot and GTK Theme scripts are based on [Arcolinux](https://arcolinux.com/) ones.
+- Firefox css is a Catppuccinified version of [WhiteSur Firefox Theme](https://github.com/vinceliuice/WhiteSur-firefox-theme).
 
+- Colors section of kitty config is a tweaked version of [Catppuccin for Kitty](https://github.com/catppuccin/kitty).
 
-Firefox css is a Catppuccinified version of [WhiteSur Firefox Theme](https://github.com/vinceliuice/WhiteSur-firefox-theme).
-
-
-Colors section of kitty config is a tweaked version of [Catppuccin for Kitty](https://github.com/catppuccin/kitty).
+- The zsh theme is tweaked [fox](https://github.com/trusktr/oh-my-zsh/blob/master/themes/fox.zsh-theme) with elements from [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme)
 
 
 ## Notes

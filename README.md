@@ -5,9 +5,7 @@ My Catppuccin Mocha Lavender Hyprland setup!
 
 ## Video
 
-You can find a quick recording [here](https://www.youtube.com/watch?v=GO_74MEvg8o).
-
-\(The Video may be poor quality since it got compressed\).
+You can find a quick recording [here](https://www.youtube.com/watch?v=GO_74MEvg8o) \(The Video may be poor quality since it got compressed\).
 
 You can also find the [original video file](./assets/Recording.mp4) in the assets directory.
 
@@ -28,17 +26,17 @@ Colors section of kitty config is a tweaked version of [Catppuccin for Kitty](ht
 
 ## Notes
 
-The Firefox css only uses Catppuccin colors when using dark mode
+- The Firefox css only uses Catppuccin colors when using dark mode
 
-The ```chrome``` directory in /firefox goes in your firefox profile folder
+- The ```chrome``` directory in /firefox goes in your firefox profile folder
 
-Firefox css requires ```toolkit.legacyUserProfileCustomizations.stylesheets``` to be enabled in about:config.
+- Firefox css requires ```toolkit.legacyUserProfileCustomizations.stylesheets``` to be enabled in about:config.
 
-If you plan on using my dotfiles you should certainly look through and change the contents of the hypr folder to suit your needs. Looking through other parts is recommended too.
+- If you plan on using my dotfiles you should certainly look through and change the contents of the hypr folder to suit your needs. Looking through other parts is recommended too.
 
-Things outside of ```.config``` go in your home folder \(Except for ```assets```, ```README.md``` and ```firefox```\).
+- Things outside of ```.config``` go in your home folder \(Except for ```assets```, ```README.md``` and ```firefox```\).
 
-The ```assets``` directory doesn't contain anything needed for the setup.
+- The ```assets``` directory doesn't contain anything needed for the setup.
 
 
 ## Use with
@@ -66,6 +64,6 @@ The ```assets``` directory doesn't contain anything needed for the setup.
 
 - [ ] Get a better recording of the setup
 
----
+#
 
 - [x] Change paths to ```~/``` or ```$HOME/``` instead of my home folder in some parts of the config

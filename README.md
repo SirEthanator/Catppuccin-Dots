@@ -26,13 +26,13 @@ Colors section of kitty config is a tweaked version of [Catppuccin for Kitty](ht
 
 ## Notes
 
+- These dotfiles were not created with the intent of others using them. You should look through at least some of the config if you plan on using it.
+
 - The Firefox css only uses Catppuccin colors when using dark mode
 
 - The ```chrome``` directory in /firefox goes in your firefox profile folder
 
 - Firefox css requires ```toolkit.legacyUserProfileCustomizations.stylesheets``` to be enabled in about:config.
-
-- If you plan on using my dotfiles you should certainly look through and change the contents of the hypr folder to suit your needs. Looking through other parts is recommended too.
 
 - Things outside of ```.config``` go in your home folder \(Except for ```assets```, ```README.md``` and ```firefox```\).
 

@@ -17,12 +17,12 @@ common () {
 
 shutdown () {
     common
-    exec sudo shutdown -h now
+    exec systemctl poweroff
 }
 
 reboot () {
     common
-    exec sudo shutdown -r now
+    exec systemctl reboot
 }
 
 logoutFunc () {

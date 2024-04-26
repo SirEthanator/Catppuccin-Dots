@@ -35,6 +35,8 @@ You can also find the [original video file](./assets/Recording.mp4) in the asset
 
 - Things outside of ```.config``` go in your home folder \(Except for ```assets```, ```README.md``` and ```firefox```\).
 
+- Some scripts are simple utility scripts and are unrelated to the setup.
+
 - The ```assets``` directory doesn't contain anything needed for the setup.
 
 

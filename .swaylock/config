@@ -1,4 +1,4 @@
-color=1e1e2e
+image=~/Shared/Wallpapers/Misc/KitppuccinAlt2.png
 font=FiraCode Nerd Font
 font-size=100px
 ignore-empty-password
@@ -12,8 +12,8 @@ text-caps-lock-color=11111b
 text-ver-color=11111b
 text-wrong-color=11111b
 ring-color=11111b
-inside-color=11111b
-ring-color=11111b
+inside-color=11111b99
+ring-color=11111b99
 key-hl-color=b4befe
 inside-clear-color=f9e2af
 inside-caps-lock-color=fab387
@@ -27,3 +27,5 @@ bs-hl-color=b4befe
 caps-lock-bs-hl-color=b4befe
 indicator-radius=225
 indicator-thickness=15
+indicator-x-position=2800
+indicator-y-position=1460

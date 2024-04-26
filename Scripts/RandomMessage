@@ -22,13 +22,20 @@ else
     text="\" Something's wrong with your script \""
 fi
 
+if [ ! -e $HOME/.config/macchina/themes/Mocha-Lavender.toml ] || [ ! -e $HOME/.config/macchina/themes/Mocha-Lavender-No-Title.toml ]; then
 
-rm $HOME/.config/macchina/themes/Mocha-Lavender.toml
+    echo "Config for macchina not found. Quitting..."
+    exit 1
 
-cp $HOME/.config/macchina/themes/Mocha-Lavender-No-Title.toml $HOME/.config/macchina/themes/Mocha-Lavender.toml
+else
 
-sed "s/title =/& $text/" $HOME/.config/macchina/themes/Mocha-Lavender.toml -i
+    rm $HOME/.config/macchina/themes/Mocha-Lavender.toml
 
-# The second to last entry is referencing this reddit post that I found amusing:
+    cp $HOME/.config/macchina/themes/Mocha-Lavender-No-Title.toml $HOME/.config/macchina/themes/Mocha-Lavender.toml
+
+    sed "s/title =/& $text/" $HOME/.config/macchina/themes/Mocha-Lavender.toml -i
+
+fi
+
+# The second to last entry a reference to this reddit post that I found amusing:
 # https://www.reddit.com/r/github/comments/1at9br4/i_am_new_to_github_and_i_have_lots_to_say/
-

@@ -28,14 +28,14 @@
 	--gnome-inactive-sidebar-background: #181825;
 
 	/* Popups */
-	--gnome-menu-background: #181825;
-	--gnome-menu-border-color: #11111b;
-	--gnome-popover-background: #181825;
-	--gnome-popover-border-color: #11111b;
+	--gnome-menu-background: #1e1e2e;
+	--gnome-menu-border-color: #181825;
+	--gnome-popover-background: #1e1e2e;
+	--gnome-popover-border-color: #181825;
 	--gnome-popover-shadow: 0 5px 8px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.75);
-	--gnome-popover-button-hover-background: #11111b;
-	--gnome-popover-button-active-background: #11111b;
-	--gnome-popover-separator-color: #11111b;
+	--gnome-popover-button-hover-background: #181825;
+	--gnome-popover-button-active-background: #181825;
+	--gnome-popover-separator-color: #181825;
 
 	/* Header bar */
 	--gnome-headerbar-background: #1e1e2e;

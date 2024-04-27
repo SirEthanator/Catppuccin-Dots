@@ -3,7 +3,9 @@
 My Catppuccin Mocha Lavender Hyprland setup!
 
 
-## Video
+## Video and Screenshot
+
+![Screenshot](/assets/Screenshot.png)
 
 You can find a quick recording [here](https://youtu.be/HOTUgxzeMoE).
 

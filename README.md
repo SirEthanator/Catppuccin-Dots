@@ -63,10 +63,12 @@ You can also find the [original video file](./assets/Recording.mp4) in the asset
 
 ## To do
 
-- [ ] Get a better recording of the setup
+- [ ] Any suggestions or issues?
 
 #
 
 - [x] Change paths to ```~/``` or ```$HOME/``` instead of my home folder in some parts of the config
 
 - [x] Tweak some colors in Firefox
+
+- [x] Get a better recording of the setup

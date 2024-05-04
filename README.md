@@ -9,7 +9,7 @@ My Catppuccin Mocha Lavender Hyprland setup!
 
 You can find a quick recording [here](https://youtu.be/HOTUgxzeMoE).
 
-You can also find the [original video file](./assets/Recording.mp4) in the assets directory.
+You can also find the [original video file](./assets/Recording.mp4) in the ```assets``` directory.
 
 
 ## Credits
@@ -18,7 +18,7 @@ You can also find the [original video file](./assets/Recording.mp4) in the asset
 
 - Screenshot and GTK Theme scripts are based on [Arcolinux](https://arcolinux.com/) ones.
 
-- Firefox css is a Catppuccinified version of [WhiteSur Firefox Theme](https://github.com/vinceliuice/WhiteSur-firefox-theme).
+- Firefox CSS is a Catppuccinified version of [WhiteSur Firefox Theme](https://github.com/vinceliuice/WhiteSur-firefox-theme).
 
 - Colors section of kitty config is a tweaked version of [Catppuccin for Kitty](https://github.com/catppuccin/kitty).
 
@@ -29,11 +29,11 @@ You can also find the [original video file](./assets/Recording.mp4) in the asset
 
 - These dotfiles were not created with the intent of others using them. You should look through at least some of the config if you plan on using it.
 
-- The Firefox css only uses Catppuccin colors when using dark mode
+- The Firefox CSS only uses Catppuccin colors when using dark mode
 
-- The ```chrome``` directory in ```/firefox``` goes in your firefox profile folder
+- The ```chrome``` directory in ```firefox``` goes in your firefox profile folder
 
-- Firefox css requires ```toolkit.legacyUserProfileCustomizations.stylesheets``` to be enabled in about:config.
+- Firefox CSS requires ```toolkit.legacyUserProfileCustomizations.stylesheets``` to be enabled in about:config.
 
 - Things outside of ```.config``` go in your home folder \(Except for ```assets```, ```README.md``` and ```firefox```\).
 
@@ -59,6 +59,8 @@ You can also find the [original video file](./assets/Recording.mp4) in the asset
 - [Borders++](https://hyprland.org/plugins/borders-plus-plus/)
 
 - [Kitppuccin Wallpapers](https://ptb.discord.com/channels/907385605422448742/1162120724589326447) \(Sign into discord and join [The Catppuccin Discord server](https://discord.gg/catppuccin)\)
+
+- For alternative Firefox CSS I like [ShyFox](https://github.com/Naezr/ShyFox) with [this theme](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-lavender/)
 
 
 ## To do

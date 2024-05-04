@@ -38,6 +38,11 @@ window#waybar.empty #window {
 
 #custom-notifications {
   margin-left: 0;
+  margin-right: 5;
+}
+
+#custom-apps {
+  margin-left: 5;
 }
 
 #workspaces button {

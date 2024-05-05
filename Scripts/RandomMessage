@@ -22,12 +22,15 @@ else
     text="\" Something's wrong with your script \""
 fi
 
-if [ ! -e $HOME/.config/macchina/themes/Mocha-Lavender.toml ] || [ ! -e $HOME/.config/macchina/themes/Mocha-Lavender-No-Title.toml ]; then
+if [ ! -e $HOME/.config/macchina/themes/Mocha-Lavender-No-Title.toml ]; then
 
     echo "Config for macchina not found. Quitting..."
     exit 1
 
 else
+    if [ ! -e $HOME/.config/macchina/themes/Mocha-Lavender.toml ]; then
+        touch $HOME/.config/macchina/themes/Mocha-Lavender.toml
+    fi
 
     rm $HOME/.config/macchina/themes/Mocha-Lavender.toml
 

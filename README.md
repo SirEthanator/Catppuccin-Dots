@@ -31,7 +31,7 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 
 - The Firefox CSS only uses Catppuccin colors when using dark mode
 
-- The ```chrome``` directory in ```firefox``` goes in your firefox profile folder
+- The ```firefox/chrome```  directory goes in your firefox profile folder
 
 - Firefox CSS requires ```toolkit.legacyUserProfileCustomizations.stylesheets``` to be enabled in about:config.
 

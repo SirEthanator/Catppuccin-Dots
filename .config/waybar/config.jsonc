@@ -71,7 +71,7 @@
     },
 
     "clock": {
-      "format": "<span color='#b4befe'>  </span>{:%I:%M %p}",
+      "format": "<span color='#b4befe'> </span>{:%I:%M %p}",
     },
 
     "pulseaudio": {

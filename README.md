@@ -65,6 +65,8 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 
 ## To do
 
+- [ ] Make power buttons a group in Waybar
+
 - [ ] Any suggestions or issues?
 
 #

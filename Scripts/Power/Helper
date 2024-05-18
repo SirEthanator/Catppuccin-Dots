@@ -27,7 +27,12 @@ reboot () {
 
 logoutFunc () {
     common
-    exec killall hyprland
+    exec hyprctl dispatch exit
+}
+
+firmware () {
+    common
+    exec systemctl reboot --firmware-setup
 }
 
 if [ $1 == '-s' ] || [ $1 == '--shutdown' ]; then
@@ -36,6 +41,8 @@ elif [ $1 == '-r' ] || [ $1 == '--reboot' ]; then
     reboot
 elif [ $1 == '-l' ] || [ $1 == '--logout' ]; then
     logoutFunc
+elif [ $1 == '-f' ] || [ $1 == '--firmware' ]; then
+    firmware
 else
     exit 128
 fi

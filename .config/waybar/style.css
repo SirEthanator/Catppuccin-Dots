@@ -66,7 +66,7 @@ window#waybar.empty #window {
   margin-right: 15px;
 }
 
-#custom-shutdown, #custom-logout, #custom-reboot {
+#custom-shutdown, #custom-logout, #custom-reboot, #custom-firmware {
   background-color: #11111b;
   color: #b4befe;
   border: 1px solid #b4befe;
@@ -88,15 +88,15 @@ window#waybar.empty #window {
   border-right: none;
 }
 
-#custom-logout {
+#custom-logout, #custom-reboot {
+  border-left: none;
+  border-right: none;
+}
+
+#custom-firmware {
   border-radius: 0px 6px 6px 0px;
   border-left: none;
   margin-right: 15px;
-}
-
-#custom-reboot {
-  border-left: none;
-  border-right: none;
 }
 
 #window {

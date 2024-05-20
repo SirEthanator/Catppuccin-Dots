@@ -58,7 +58,9 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 
 - [Borders++](https://hyprland.org/plugins/borders-plus-plus/)
 
-- [Kitppuccin Wallpapers](https://discord.com/channels/907385605422448742/1162120724589326447) \(Sign into discord and join [The Catppuccin Discord server](https://discord.gg/catppuccin)\)
+- [Arch Wallpaper I Made](https://www.deviantart.com/deviantarchuser/art/Catppuccin-Mocha-Lavender-Wallpapers-for-Arch-1054217001)
+
+- Alternative wallpaper: [Kitppuccin Wallpapers](https://discord.com/channels/907385605422448742/1162120724589326447) \(Sign into discord and join [The Catppuccin Discord server](https://discord.gg/catppuccin)\)
 
 - For alternative Firefox CSS I like [ShyFox](https://github.com/Naezr/ShyFox) with [this theme](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-lavender/)
 

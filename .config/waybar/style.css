@@ -1,6 +1,6 @@
 * {
   border: none;
-  font-family: 'Fira Code', 'Symbols Nerd Font Mono';
+  font-family: 'Cascadia Code', 'Symbols Nerd Font Mono';
   font-size: 16px;
   font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
   min-height: 30px;
@@ -37,12 +37,12 @@ window#waybar.empty #window {
 }
 
 #custom-notifications {
-  margin-left: 0;
-  margin-right: 5;
+  margin-left: 0px;
+  margin-right: 5px;
 }
 
 #custom-apps {
-  margin-left: 5;
+  margin-left: 5px;
 }
 
 #workspaces button {
@@ -66,6 +66,14 @@ window#waybar.empty #window {
   margin-right: 15px;
 }
 
+#custom-power-left-end {
+  background-color: #11111b;
+  border: 1px solid #b4befe;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  margin-top: 6px;
+}
+
 #custom-shutdown, #custom-logout, #custom-reboot, #custom-firmware {
   background-color: #11111b;
   color: #b4befe;
@@ -83,9 +91,10 @@ window#waybar.empty #window {
   border-bottom: 1px solid #b4befe;
 }
 
-#custom-shutdown {
-  border-radius: 6px 0px 0px 6px;
+#custom-firmware {
+  border-radius: 0;
   border-right: none;
+  border-left: none;
 }
 
 #custom-logout, #custom-reboot {
@@ -93,8 +102,8 @@ window#waybar.empty #window {
   border-right: none;
 }
 
-#custom-firmware {
-  border-radius: 0px 6px 6px 0px;
+#custom-shutdown {
+  border-radius: 0 6px 6px 0;
   border-left: none;
   margin-right: 15px;
 }

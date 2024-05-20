@@ -2,7 +2,7 @@
   "layer": "top",
     "modules-left": ["custom/apps", "hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["tray", "pulseaudio", "custom/shutdown", "custom/divider", "custom/reboot", "custom/divider", "custom/logout", "custom/divider", "custom/firmware", "clock", "custom/notifications"],
+    "modules-right": ["tray", "pulseaudio", "custom/power-left-end", "group/power", "clock", "custom/notifications"],
     "custom/apps": {
       "format": "  ",
       "tooltip": false,
@@ -31,8 +31,13 @@
       "escape": true
     },
 
+    "custom/power-left-end": {
+      "format": " ",
+      "tooltip": false,
+    },
+
     "custom/shutdown": {
-      "format": "  ",
+      "format": "    ",
       "tooltip": false,
       "on-click": "$HOME/Scripts/Power/Power -s"
     },
@@ -58,6 +63,23 @@
     "custom/divider": {
      "format": "|",
      "tooltip": "flase"
+    },
+
+    "group/power": {
+      "orientation": "horizontal",
+      "drawer": {
+        "transition-duration": 600,
+        "transition-left-to-right": false,
+      },
+      "modules": [
+        "custom/shutdown",
+        "custom/firmware",
+        "custom/divider",
+        "custom/logout",
+        "custom/divider",
+        "custom/reboot",
+        "custom/divider",
+      ]
     },
 
     "hyprland/workspaces": {

@@ -1,17 +1,16 @@
-image=~/Shared/Wallpapers/Misc/KitppuccinAlt2.png
+image=~/Shared/Wallpapers/CatppuccinLogos/ArchMochaLavender\(Crust\).jpg
 font=FiraCode Nerd Font
 font-size=100px
 ignore-empty-password
 clock
 timestr=%I:%M:%S %p
 indicator
-line-uses-ring
 text-color=cdd6f4
 text-clear-color=11111b
 text-caps-lock-color=fab387
 text-ver-color=11111b
 text-wrong-color=11111b
-ring-color=11111b
+line-color=11111b99
 inside-color=11111b99
 ring-color=11111b99
 key-hl-color=b4befe
@@ -23,6 +22,10 @@ ring-clear-color=11111b99
 ring-caps-lock-color=11111b99
 ring-ver-color=11111b99
 ring-wrong-color=11111b99
+line-clear-color=11111b99
+line-caps-lock-color=11111b99
+line-ver-color=11111b99
+line-wrong-color=11111b99
 bs-hl-color=b4befe
 caps-lock-bs-hl-color=b4befe
 indicator-radius=225

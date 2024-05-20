@@ -24,6 +24,8 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 
 - The zsh theme is tweaked [fox](https://github.com/trusktr/oh-my-zsh/blob/master/themes/fox.zsh-theme) with elements from [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme)
 
+- The styling on Swaync is slightly tweaked [Catppuccin for Swaync](https://github.com/catppuccin/swaync)
+
 
 ## Notes
 
@@ -51,8 +53,6 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 - [Papirus folders](https://github.com/catppuccin/papirus-folders)
 
 - [Catppuccin Kvantum theme](https://github.com/catppuccin/Kvantum)
-
-- [Catppuccin for swaync](https://github.com/catppuccin/swaync)
 
 - [Ocean sound theme](https://invent.kde.org/plasma/ocean-sound-theme)
 

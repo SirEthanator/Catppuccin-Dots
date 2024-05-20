@@ -67,8 +67,6 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 
 ## To do
 
-- [ ] Make power buttons a group in Waybar
-
 - [ ] Any suggestions or issues?
 
 #
@@ -78,3 +76,5 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 - [x] Tweak some colors in Firefox
 
 - [x] Get a better recording of the setup
+
+- [x] Make power buttons a group in Waybar

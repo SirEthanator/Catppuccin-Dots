@@ -2,7 +2,7 @@
   "layer": "top",
     "modules-left": ["custom/apps", "hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["tray", "pulseaudio", "custom/power-left-end", "group/power", "clock", "custom/notifications"],
+    "modules-right": ["custom/power-left-end", "group/power", "tray", "pulseaudio", "clock", "custom/notifications"],
     "custom/apps": {
       "format": "  ",
       "tooltip": false,

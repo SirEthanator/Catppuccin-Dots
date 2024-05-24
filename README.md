@@ -22,18 +22,18 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 
 - Colors section of kitty config is a tweaked version of [Catppuccin for Kitty](https://github.com/catppuccin/kitty).
 
-- The zsh theme is tweaked [fox](https://github.com/trusktr/oh-my-zsh/blob/master/themes/fox.zsh-theme) with elements from [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme)
+- The zsh theme is tweaked [fox](https://github.com/trusktr/oh-my-zsh/blob/master/themes/fox.zsh-theme) with elements from [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme).
 
-- The styling on Swaync is slightly tweaked [Catppuccin for Swaync](https://github.com/catppuccin/swaync)
+- The styling on Swaync is slightly tweaked [Catppuccin for Swaync](https://github.com/catppuccin/swaync).
 
 
 ## Notes
 
 - These dotfiles were not created with the intent of others using them. You should look through at least some of the config if you plan on using it.
 
-- The Firefox CSS only uses Catppuccin colors when using dark mode
+- The Firefox CSS only uses Catppuccin colors when using dark mode.
 
-- The ```firefox/chrome```  directory goes in your firefox profile folder
+- The ```firefox/chrome```  directory goes in your firefox profile folder.
 
 - Firefox CSS requires ```toolkit.legacyUserProfileCustomizations.stylesheets``` to be enabled in about:config.
 
@@ -56,13 +56,13 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 
 - [Ocean sound theme](https://invent.kde.org/plasma/ocean-sound-theme)
 
-- [Borders++](https://hyprland.org/plugins/borders-plus-plus/)
+- [Borders++](https://hyprland.org/plugins/borders-plus-plus)
 
 - [Arch Wallpaper I Made](https://www.deviantart.com/deviantarchuser/art/Catppuccin-Mocha-Lavender-Wallpapers-for-Arch-1054217001)
 
-- Alternative wallpaper: [Kitppuccin Wallpapers](https://discord.com/channels/907385605422448742/1162120724589326447) \(Sign into discord and join [The Catppuccin Discord server](https://discord.gg/catppuccin)\)
+- Alternative wallpaper: [Kitppuccin Wallpapers](https://discord.com/channels/907385605422448742/1162120724589326447) \(Sign into discord and join [The Catppuccin Discord server](https://discord.gg/catppuccin)\).
 
-- For alternative Firefox CSS I like [ShyFox](https://github.com/Naezr/ShyFox) with [this theme](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-lavender/)
+- For alternative Firefox CSS I like [ShyFox](https://github.com/Naezr/ShyFox) with [this theme](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-lavender).
 
 
 ## To do

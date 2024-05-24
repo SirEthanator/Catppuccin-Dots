@@ -1,6 +1,6 @@
 * {
   all: unset;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "FiraCode Nerd Font";
   transition: 200ms;
 }
@@ -35,7 +35,6 @@ slider {
 }
 
 .floating-notifications.background .notification-row .notification-background .notification.critical {
-  /*box-shadow: inset 0 0 7px 0 #f38ba8;*/
   border: 2pt solid #f38ba8
 }
 
@@ -44,7 +43,10 @@ slider {
 }
 
 .floating-notifications.background .notification-row .notification-background .notification .notification-content .summary {
+  font-size: 18px;
+  font-weight: bold;
   color: #cdd6f4;
+  margin-bottom: 5px;
 }
 
 .floating-notifications.background .notification-row .notification-background .notification .notification-content .time {
@@ -145,7 +147,6 @@ slider {
 }
 
 .control-center .notification-row .notification-background .notification.critical {
-  /*box-shadow: inset 0 0 7px 0 #f38ba8;*/
   border: 2pt solid #f38ba8
 }
 
@@ -155,6 +156,8 @@ slider {
 
 .control-center .notification-row .notification-background .notification .notification-content .summary {
   color: #cdd6f4;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .control-center .notification-row .notification-background .notification .notification-content .time {

@@ -6,7 +6,7 @@
     "custom/apps": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "nwg-drawer -ovl -pbpoweroff '$HOME/Scripts/Power/Power -s' -pbreboot '$HOME/Scripts/Power/Power -r' -term 'kitty'"
+      "on-click": "rofi -show drun"
     },
 
     "custom/notifications": {

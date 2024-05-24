@@ -104,7 +104,7 @@
 
     "pulseaudio": {
       "format": "<span color='#b4befe'>{icon}</span> {volume}%",
-      "format-muted": "",
+      "format-muted": "<span color ='#b4befe'></span>",
       "tooltip": false,
       "format-icons": {
         "headphone": "",

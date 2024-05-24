@@ -26,6 +26,8 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 
 - The styling on Swaync is slightly tweaked [Catppuccin for Swaync](https://github.com/catppuccin/swaync).
 
+- The rofi config is from [this Rofi theme collection](https://github.com/adi1090x/rofi) with tweaked colors.
+
 
 ## Notes
 

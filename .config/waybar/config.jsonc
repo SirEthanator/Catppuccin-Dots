@@ -81,11 +81,11 @@
         "custom/shutdown",
         "custom/firmware",
         "custom/divider",
+        "custom/suspend",
+        "custom/divider",
         "custom/logout",
         "custom/divider",
         "custom/reboot",
-        "custom/divider",
-        "custom/suspend",
         "custom/divider",
       ]
     },

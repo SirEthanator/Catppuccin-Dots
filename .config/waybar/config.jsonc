@@ -60,6 +60,12 @@
       "on-click": "$HOME/Scripts/Power/Power -f"
     },
 
+      "custom/suspend": {
+      "format": "  ",
+      "tooltip": false,
+      "on-click": "systemctl suspend"
+    },
+
     "custom/divider": {
      "format": "|",
      "tooltip": "flase"
@@ -78,6 +84,8 @@
         "custom/logout",
         "custom/divider",
         "custom/reboot",
+        "custom/divider",
+        "custom/suspend",
         "custom/divider",
       ]
     },

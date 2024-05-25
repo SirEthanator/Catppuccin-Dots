@@ -75,7 +75,7 @@ window#waybar.empty #window {
   margin-top: 6px;
 }
 
-#custom-shutdown, #custom-logout, #custom-reboot, #custom-firmware {
+#custom-shutdown, #custom-logout, #custom-reboot, #custom-firmware, #custom-suspend {
   background-color: #11111b;
   color: #b4befe;
   border: 1px solid #45475a;
@@ -98,7 +98,7 @@ window#waybar.empty #window {
   border-left: none;
 }
 
-#custom-logout, #custom-reboot {
+#custom-logout, #custom-reboot, #custom-suspend {
   border-left: none;
   border-right: none;
 }

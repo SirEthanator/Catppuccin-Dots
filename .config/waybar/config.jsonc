@@ -63,7 +63,7 @@
       "custom/suspend": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "systemctl suspend"
+      "on-click": "swaylock & sleep 1; systemctl suspend"
     },
 
     "custom/divider": {

@@ -6,7 +6,7 @@
     "custom/apps": {
       "format": "  ",
       "tooltip": false,
-      "on-click": "rofi -show drun"
+      "on-click": "rofi -show drun -disable-history"
     },
 
     "custom/notifications": {

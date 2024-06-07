@@ -13,6 +13,13 @@ key_color = "#b4befe"
 separator_color = "#9399b2"
 
 
+[custom_ascii]
+
+path = "~/.config/macchina/ascii"
+
+color = "#b4befe"
+
+
 [palette]
 
 visible = true
@@ -39,7 +46,7 @@ visible = true
 
 title =
 
-border = "rounded"
+border = "plain"
 
 
 [box.inner_margin]

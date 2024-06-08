@@ -7,7 +7,7 @@ My Catppuccin Mocha Lavender Hyprland setup!
 
 ![Screenshot](/assets/Screenshot.png)
 
-You can find a quick recording [here](https://youtu.be/HOTUgxzeMoE).
+You can find a quick recording [here](https://youtu.be/iGiZGgRhlHw).
 
 You can also find the [original video file](./assets/Recording.mp4) in the ```assets``` directory.
 

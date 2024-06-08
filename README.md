@@ -1,5 +1,5 @@
 
-# Hyprland-Dots
+# Catppuccin Dots
 My Catppuccin Mocha Lavender Hyprland setup!
 
 

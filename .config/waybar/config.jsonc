@@ -97,7 +97,7 @@
       "all-outputs": true,
       "format-icons": {
         "active": "",
-        "default": ""
+        "default": "<span color='#6c7086'></span>"
       }
     },
 

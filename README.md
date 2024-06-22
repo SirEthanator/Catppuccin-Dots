@@ -1,5 +1,6 @@
 
 # Catppuccin Dots
+
 My Catppuccin Mocha Lavender Hyprland setup!
 
 
@@ -57,8 +58,6 @@ You can also find the [original video file](./assets/Recording.mp4) in the ```as
 - [Catppuccin Kvantum theme](https://github.com/catppuccin/Kvantum)
 
 - [Ocean sound theme](https://invent.kde.org/plasma/ocean-sound-theme)
-
-- [Borders++](https://hyprland.org/plugins/borders-plus-plus)
 
 - [Arch Wallpaper I Made](https://www.deviantart.com/deviantarchuser/art/Catppuccin-Mocha-Lavender-Wallpapers-for-Arch-1054217001)
 

@@ -3,8 +3,8 @@
 
 My Catppuccin Mocha Lavender Hyprland setup!
 
-> [!NOTE]
-> I'm probably not going to commit to this repo anymore
+> [!WARNING]
+> This repo is no longer maintained
 >
 > My new dotfiles are [here](https://github.com/SirEthanator/Everforest-Dots)
 
